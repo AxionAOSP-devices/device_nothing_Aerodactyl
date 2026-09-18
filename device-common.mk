@@ -252,8 +252,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     nt-fwk.Aerodactyl
 
-PRODUCT_BOOT_JARS += \
-    nt-fwk.Aerodactyl
 
 # Overlays
 $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
