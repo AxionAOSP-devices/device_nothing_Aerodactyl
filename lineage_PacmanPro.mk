@@ -4,7 +4,7 @@
 #
 
 # Inherit from the custom device configuration.
-$(call inherit-product, device/nothing/Aerodactyl/device-PacmanPro.mk)
+$(call inherit-product, device/nothing/Aerodactyl/PacmanPro/device.mk)
 
 # Inherit from the LineageOS configuration.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
